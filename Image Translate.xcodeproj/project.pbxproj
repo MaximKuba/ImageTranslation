@@ -13,6 +13,8 @@
 		8DE6CCD926550FAA0099C9C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE6CCD726550FAA0099C9C3 /* Main.storyboard */; };
 		8DE6CCDB26550FAE0099C9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE6CCDA26550FAE0099C9C3 /* Assets.xcassets */; };
 		8DE6CCDE26550FAE0099C9C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE6CCDC26550FAE0099C9C3 /* LaunchScreen.storyboard */; };
+		8DE6CCE626550FC30099C9C3 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8DE6CCE526550FC30099C9C3 /* Inceptionv3.mlmodel */; };
+		8DE6CCE826551CD70099C9C3 /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE6CCE726551CD70099C9C3 /* Vocabulary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8DE6CCDA26550FAE0099C9C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DE6CCDD26550FAE0099C9C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DE6CCDF26550FAE0099C9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE6CCE526550FC30099C9C3 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		8DE6CCE726551CD70099C9C3 /* Vocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8DE6CCDA26550FAE0099C9C3 /* Assets.xcassets */,
 				8DE6CCDC26550FAE0099C9C3 /* LaunchScreen.storyboard */,
 				8DE6CCDF26550FAE0099C9C3 /* Info.plist */,
+				8DE6CCE526550FC30099C9C3 /* Inceptionv3.mlmodel */,
+				8DE6CCE726551CD70099C9C3 /* Vocabulary.swift */,
 			);
 			path = "Image Translate";
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DE6CCD626550FAA0099C9C3 /* ViewController.swift in Sources */,
+				8DE6CCE826551CD70099C9C3 /* Vocabulary.swift in Sources */,
+				8DE6CCE626550FC30099C9C3 /* Inceptionv3.mlmodel in Sources */,
 				8DE6CCD226550FAA0099C9C3 /* AppDelegate.swift in Sources */,
 				8DE6CCD426550FAA0099C9C3 /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
